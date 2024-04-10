@@ -84,7 +84,7 @@ def extract_mesh(implicit_surface, volume_size=2.0, level=0.0, N=512, filepath='
     voxel_grid_origin = [-s/2., -s/2., -s/2.]
     volume_size = [s, s, s]
 
-    overall_index = np.arange(0, N ** 3, 1).astype(np.int)
+    overall_index = np.arange(0, N ** 3, 1).astype(int)
     xyz = np.zeros([N ** 3, 3])
 
     # transform first 3 columns
