@@ -40,6 +40,7 @@
 - python>=3.6 (tested on python=3.8.5 using conda)
 - pytorch>=1.6.0
 - `pip install tqdm scikit-image opencv-python pandas tensorboard addict imageio imageio-ffmpeg pyquaternion scikit-learn pyyaml seaborn PyMCubes trimesh plyfile`
+- `pip install Pillow==9.5.0`
 
 #### (optional)
 - visualization of meshes: `pip install open3d`
